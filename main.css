@@ -11,6 +11,10 @@ body {
     color: #4A4A4A;
 }
 
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 nav, footer {
     background: #F3F3F3;
 }
@@ -33,7 +37,6 @@ nav {
 }
 
 .nav-item a {
-    background: #E5E4E9;
     color: #4A4A4A;
     text-decoration: none;
     padding: 5px;
@@ -42,6 +45,8 @@ nav {
 .nav-item a:hover {
     background: #EF5000;
     color: #221E1F;
+    cursor: pointer;
+    transition: background-color 1s;
 }
 
 header {
@@ -56,4 +61,6 @@ section {
 
 footer {
     padding: 4% 0;
+    background: #221E1F;
+    color: #F3F3F3;
 }
