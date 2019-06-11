@@ -7,14 +7,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
         <link href="https://fonts.googleapis.com/css?family=Bitter|Montserrat|Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+	 crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="main.css">
     </head>
 
     <body>
         <nav role="navigation">
             <img class="nav-bar logo" src="portfolio-logo.svg" alt="logo">
-            <h3 class="nav-bar">Kevin Hoercher</h3>
-            <ul class="nav-bar">
+            <h3 class="nav-bar name">Kevin Hoercher</h3>
+            <div class="nav-bar hamburger">&#9776;</div>
+            <ul class="nav-bar nav-items">
                 <li class="nav-bar nav-item"><a href="#">Projects</a></li>
                 <li class="nav-bar nav-item"><a href="#">About Me</a></li>
                 <li class="nav-bar nav-item"><a href="#">Reach Out</a></li>
@@ -25,13 +28,14 @@
             <header role="banner">
                 <h1>Hi there! My name is Kevin and I am a fullstack developer solving problems in Vermont.</h1>
             </header>
+
             <section class="bio">
-                <h2>BIO</h2>
+                <h2>ABOUT ME</h2>
                 <p>I am a web developer and recent graduate of the Web Developer Track at Bloc.io. Board games inspired my interest in programming. My favorite part of any game is reading and explaining the rules. I approach any web development problem like a complex game -- breaking down each requirement and writing rules to govern that logic.</p>
                 <p>After four years in Washington, D.C., my partner and I moved to Vermont to be closer to the outdoors. When I’m not working I’m often  snowboarding, climbing, camping, or reading comics. We make a goal of finding new places to explore each season. I take the same approach to web development. I am always eager to learn something new and make time to explore beyond my comfort zone.</p>
             </section>
 
-            <h2>PROJECTS</h2>
+            <h2 class="project-heading">PROJECTS</h2>
             <section class="project">
                 <img src="quiz-app.png" class="project-image" alt="project-screenshot">
                 <section class="project-info">
@@ -39,19 +43,42 @@
                     <p>Project description: This is an early project to combine my experience in HTML, CSS, and JavaScript. The goal was to create a simple web app on everyone’s friendly neighborhood Spider-Man. I focused on writing clean, descriptive JavaScript that over users could easily read and understand. The HTML is designed to be as accessible as possible, following a11y best practices. I also hope it inspires some quiz-takers to pick up a comic!</p>
                     <p>Link to live app: <a href="https://khoerch.github.io/quiz-app/" target="_blank">https://khoerch.github.io/quiz-app/</a></p>
                     <p>Link to repo: <a href="https://github.com/khoerch/quiz-app" target="_blank">https://github.com/khoerch/quiz-app</a></p>
-                    <p>Technologies Used: HTML, CSS, JavaScript, jQuery</p>
+                    <p>Technologies Used:</p>
+                    <ul class='tech-icons'>
+                        <li><i class="fab fa-html5"></i></li>
+                        <li><i class="fab fa-css3-alt"></i></li>
+                        <li><i class="fab fa-js-square"></i></li>
+                    </ul>
                 </section>
             </section>
             <section class="project">
-                Project 2
+                <img src="https://images.unsplash.com/photo-1552472200-78d2ad19d2ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80" class="project-image" alt="project-screenshot">
+                <section class="project-info">
+                    <h3>Project #2</h3>
+                    <p>Project description: Coming Soon!</p>
+                    <p>Link to live app: <a href="https://khoerch.github.io/quiz-app/" target="_blank">https://khoerch.github.io/quiz-app/</a></p>
+                    <p>Link to repo: <a href="https://github.com/khoerch/quiz-app" target="_blank">https://github.com/khoerch/quiz-app</a></p>
+                    <p>Technologies Used: </p>
+                </section>
             </section>
             <section class="project">
-                Project 3
+                <img src="https://images.unsplash.com/photo-1508287459906-37445322fdf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" class="project-image" alt="project-screenshot">
+                <section class="project-info">
+                    <h3>Project #3</h3>
+                    <p>Project description: Coming Soon!</p>
+                    <p>Link to live app: <a href="https://khoerch.github.io/quiz-app/" target="_blank">https://khoerch.github.io/quiz-app/</a></p>
+                    <p>Link to repo: <a href="https://github.com/khoerch/quiz-app" target="_blank">https://github.com/khoerch/quiz-app</a></p>
+                    <p>Technologies Used: </p>
+                </section>
             </section>
         </main>
 
         <footer role="contact-info">
-            Add in some icons for LinkedIn, GitHub, and my email
+            <ul class="social">
+                <li class="social_icon"><i class="fab fa-github"></i></li>
+                <li class="social_icon"><i class="fab fa-linkedin"></i></li>
+                <li class="social_icon"><i class="fas fa-envelope-square"></i></i></li>
+            </ul>
         </footer>
     </body>
 </html>

@@ -15,6 +15,11 @@ h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
+i {
+    font-size: 2em;
+}
+
+/*Nav Bar Section*/
 nav, footer {
     background: #F3F3F3;
 }
@@ -24,8 +29,11 @@ nav {
     top: 0;
     left: 0;
     right: 0;
-    padding: 2% 0;
+    padding: 2% 4%;
     z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-bar {
@@ -35,6 +43,66 @@ nav {
 .logo {
     max-height: 60px;
 }
+
+.hamburger {
+    margin-right: 15px;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.nav-items, .name {
+    display: none;
+}
+
+/*Main section*/
+header {
+    padding: 25% 10% 15% 10%;
+}
+
+.bio, .project-info {
+    background: #E5E4E9;
+    padding: 5%;
+    min-height: 200px;
+    text-align: left;
+}
+
+.project-heading {
+    margin-top: 15%;
+}
+
+.project {
+    margin: 5%;
+}
+
+.project-image {
+    width: 100%;
+    padding: 6% 0 3%;
+}
+
+.tech-icons {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Footer Section*/
+footer {
+    padding: 4% 0;
+    background: #221E1F;
+    color: #F3F3F3;
+}
+
+.social {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Media queries
 
 .nav-item a {
     color: #4A4A4A;
@@ -46,21 +114,20 @@ nav {
     background: #EF5000;
     color: #221E1F;
     cursor: pointer;
-    transition: background-color 1s;
+    transition: background-color 1s;*/
 }
 
-header {
-    padding: 15%;
+@media screen and (min-width: 420px) {
+    .name {
+        display: inline-block;
+        color: black;
+    }
+    nav {
+        background: black;
+    }
 }
+  
 
-section {
-    background: #E5E4E9;
-    padding: 5% 0;
-    min-height: 200px;
-}
-
-footer {
-    padding: 4% 0;
-    background: #221E1F;
-    color: #F3F3F3;
+@media screen and (min-width: 820px) {
+    
 }
