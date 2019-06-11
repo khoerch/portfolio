@@ -19,6 +19,10 @@ i {
     font-size: 2em;
 }
 
+.emphasis {
+    color: #EF5000;
+}
+
 /*Nav Bar Section*/
 nav, footer {
     background: #F3F3F3;
@@ -52,6 +56,12 @@ nav {
 
 .nav-items, .name {
     display: none;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /*Main section*/
@@ -114,20 +124,34 @@ footer {
     background: #EF5000;
     color: #221E1F;
     cursor: pointer;
-    transition: background-color 1s;*/
-}
+    transition: background-color 1s;
+}*/
 
 @media screen and (min-width: 420px) {
     .name {
         display: inline-block;
-        color: black;
     }
-    nav {
-        background: black;
-    }
-}
   
 
 @media screen and (min-width: 820px) {
+    .hamburger {
+        display: none;
+    }
+
+    .nav-items {
+        display: inline-block;
+    }
+
+    .nav-item a {
+        color: #4A4A4A;
+        text-decoration: none;
+        padding: 5px;
+    }
     
+    .nav-item a:hover {
+        background: #EF5000;
+        color: #221E1F;
+        cursor: pointer;
+        transition: background-color 1s;
+    }
 }
