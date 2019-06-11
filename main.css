@@ -28,6 +28,10 @@ nav {
     display: inline-block;
 }
 
+.logo {
+    max-height: 60px;
+}
+
 .nav-item a {
     background: #E5E4E9;
     color: #4A4A4A;
