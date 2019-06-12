@@ -20,7 +20,24 @@ i {
 }
 
 .emphasis {
-    color: #EF5000;
+    color: #221E1F;
+    font-weight: 900;
+}
+
+/*Links*/
+a {
+    color: #4A4A4A;
+    text-decoration: underline;
+    padding: 0;
+    padding: 0;
+    font-weight: bolder;
+}
+
+a:hover {
+    background: #EF5000;
+    color: #221E1F;
+    cursor: pointer;
+    transition: background-color 2s;
 }
 
 /*Nav Bar Section*/
@@ -69,6 +86,10 @@ header {
     padding: 25% 10% 15% 10%;
 }
 
+.heading-emphasis {
+    color: #EF5000;
+}
+
 .bio, .project-info {
     background: #E5E4E9;
     padding: 5%;
@@ -104,6 +125,11 @@ footer {
     color: #F3F3F3;
 }
 
+.orange-bar {
+    background: #EF5000;
+    height: 5px;
+}
+
 .social {
     list-style-type: none;
     padding: 0;
@@ -112,20 +138,7 @@ footer {
     justify-content: space-evenly;
 }
 
-/*Media queries
-
-.nav-item a {
-    color: #4A4A4A;
-    text-decoration: none;
-    padding: 5px;
-}
-
-.nav-item a:hover {
-    background: #EF5000;
-    color: #221E1F;
-    cursor: pointer;
-    transition: background-color 1s;
-}*/
+/*Media queries*/
 
 @media screen and (min-width: 420px) {
     .name {
@@ -134,24 +147,32 @@ footer {
   
 
 @media screen and (min-width: 820px) {
+    /*Nav changes*/
     .hamburger {
         display: none;
     }
 
     .nav-items {
-        display: inline-block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
-    .nav-item a {
-        color: #4A4A4A;
-        text-decoration: none;
-        padding: 5px;
+    .nav-items a {
+        padding: 5px 15px;
     }
-    
-    .nav-item a:hover {
-        background: #EF5000;
-        color: #221E1F;
-        cursor: pointer;
-        transition: background-color 1s;
+
+    /*Project changes*/
+    .project {
+        display: flex;
+    }
+
+    .project-image {
+        width: 50%;
+        height: auto;
+    }
+
+    .project-info {
+        width: 50%;
     }
 }
