@@ -14,29 +14,35 @@
 
     <body>
         <nav role="navigation">
-            <div class="nav-left">
-                <img class="nav-bar logo" src="portfolio-logo.svg" alt="logo">
-                <h3 class="nav-bar name">Kevin Hoercher</h3>
-            </div>
-            <div class="nav-right">
-                <button class="nav-bar hamburger">&#9776;</button> 
+            <section class="nav-top">
+                <div class="nav-left">
+                    <img class="nav-bar logo" src="portfolio-logo.svg" alt="logo">
+                    <h3 class="nav-bar name hidden">Kevin Hoercher</h3>
+                </div>
+                <div class="nav-right">
+                    <button class="nav-bar hamburger" id="js-button-menu">&#9776;</button> 
+                </div> 
+            </section>
+            <section class="nav-bottom hidden">
                 <ul class="nav-bar nav-items">
-                    <button id="js-button-project"><li class="nav-bar nav-item">Projects</li></button>
-                    <button><li class="nav-bar nav-item">About me</li></button>
-                    <button><li class="nav-bar nav-item">Reach out</li></button>
+                    <a href="#projects" id="js-nav-item"><li class="nav-bar nav-item">Projects</li></a>
+                    <a href="#about-me" id="js-nav-item"><li class="nav-bar nav-item">About me</li></a>
+                    <a href="#reach-out" id="js-nav-item"><li class="nav-bar nav-item">Reach out</li></a>
                 </ul>
-            </div> 
+            </section>
         </nav>
 
         <main role="main">
             <header role="banner">
                 <h1>Hi there! My name is Kevin and I am a <span class="heading-emphasis">fullstack developer</span> solving problems in <span class="heading-emphasis">Vermont</span>.</h1>
+                <div id="about-me"></div>
             </header>
 
             <section class="bio">
                 <h2>ABOUT ME</h2>
                 <p>I am a web developer specializing in <span class="emphasis">React</span>, <span class="emphasis">Node</span>, <span class="emphasis">JavaScript</span>, and <span class="emphasis">complex data sets</span>. Board games inspired my interest in programming. My favorite part of any game is reading and explaining the rules. I approach web development problems like a complex game -- breaking down each requirement and writing rules to govern that logic.</p>
                 <p>After four years in Washington, D.C., my partner and I moved to Vermont to be closer to the outdoors. When I’m not working, I’m often  snowboarding, climbing, reading comics, or playing <a href="https://www.youtube.com/watch?v=fVdMpqT7WiU">Ultimate Frisbee</a>. We make a goal of finding new places to explore each season. I take the same approach to web development. I am always eager to learn something new and make time to explore beyond my comfort zone.</p>
+                <div id="projects"></div>
             </section>
 
             <h2 class="project-heading">PROJECTS</h2>
@@ -85,7 +91,7 @@
                 </section>
             </section>
 
-            <section class="contact">
+            <section class="contact" id="reach-out">
                 <h2>REACH OUT!</h2>
                 <p>You can find me around the web at the links below.</p>
             </section>

@@ -47,9 +47,12 @@ button {
 
 button:hover {
     background: #EF5000;
-    color: #221E1F;
     cursor: pointer;
     transition: background-color 2s;
+}
+
+.nav-item:hover {
+    color: #221E1F;
 }
 
 /*Nav Bar Section*/
@@ -62,8 +65,13 @@ nav {
     top: 0;
     left: 0;
     right: 0;
-    padding: 1% 4%;
+    padding: 2% 4%;
     z-index: 10;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-top, .nav-left {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,19 +91,28 @@ nav {
     font-weight: 900;
 }
 
-.nav-items, .name {
-    display: none;
+.nav-items {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #E5E4E9;
+    display: flex;
+    justify-content: space-around;
 }
 
-.nav-left {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.nav-items button {
+    padding: 5px 10px;
+    font-size: 1.08em;
+    color: #4A4A4A;
+}
+
+.hidden {
+    display: none;
 }
 
 /*Main section*/
 header {
-    padding: 25% 10% 15% 10%;
+    padding: 50% 10% 15% 10%;
 }
 
 .heading-emphasis {
@@ -156,6 +173,10 @@ footer {
         display: inline-block;
     }
 
+    header {
+        padding: 35% 10% 15% 10%;
+    }
+
     .project-image {
         max-width: 600px;
     }
@@ -168,16 +189,23 @@ footer {
         display: none;
     }
 
-    .nav-items {
+    nav {
         display: flex;
-        justify-content: space-between;
+        flex-direction: row;
         align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-items {
+        background: #F3F3F3;
     }
 
     .nav-items button {
         padding: 5px 15px;
-        font-size: 1.08em;
-        color: #4A4A4A;
+    }
+
+    .hidden {
+        display: inline-block;
     }
 
     /*Project changes*/
