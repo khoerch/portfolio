@@ -29,7 +29,7 @@ a {
     color: #4A4A4A;
     text-decoration: underline;
     padding: 0;
-    padding: 0;
+    margin: 0;
     font-weight: bolder;
 }
 
@@ -100,9 +100,9 @@ nav {
     justify-content: space-around;
 }
 
-.nav-items button {
+.nav-items a {
     padding: 5px 10px;
-    font-size: 1.08em;
+    font-size: 1.0em;
     color: #4A4A4A;
 }
 
@@ -151,6 +151,8 @@ footer {
     padding: 4% 0;
     background: #221E1F;
     color: #F3F3F3;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .orange-bar {
@@ -158,12 +160,15 @@ footer {
     height: 5px;
 }
 
-.social {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: space-evenly;
+footer a {
+    color: #F3F3F3;
+}
+
+footer a:hover {
+    background: none;
+    color: #EF5000;
+    font-size: 1.05em;
+    transition: .5s;
 }
 
 /*Media queries*/
@@ -200,7 +205,7 @@ footer {
         background: #F3F3F3;
     }
 
-    .nav-items button {
+    .nav-items a {
         padding: 5px 15px;
     }
 
@@ -208,7 +213,30 @@ footer {
         display: inline-block;
     }
 
-    /*Project changes*/
+
+    /*START HERE!*/
+
+
+
+    header {
+        background: url("background-1.svg");
+    }
+    /*Project changes
+    
+    header {
+        position: relative;
+        right: 50px;
+        margin: 20% 10% 15% 10%;
+        padding: 0;
+    }
+
+    .bio {
+        position: relative;
+        width: 550px;
+        left: 300px;
+        bottom: 100px;
+    }*/
+    
     .project {
         display: flex;
         align-items: center;
