@@ -214,28 +214,28 @@ footer a:hover {
     }
 
 
-    /*START HERE!*/
-
-
+    /*Header and Bio*/
 
     header {
-        background: url("background-1.svg");
+        background-image: url("background-1.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        padding: 23% 10% 23% 10%;
     }
-    /*Project changes
-    
-    header {
+
+    header h1 {
         position: relative;
-        right: 50px;
-        margin: 20% 10% 15% 10%;
-        padding: 0;
+        right: 40px;
+        max-width: 681px;
     }
 
     .bio {
-        position: relative;
-        width: 550px;
-        left: 300px;
-        bottom: 100px;
-    }*/
+        padding-left: 25%;
+        padding-right: 10%;
+    }
+
+    /*Project changes*/
     
     .project {
         display: flex;
