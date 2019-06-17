@@ -15,7 +15,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="background-1.svg">
+   sodipodi:docname="background-2.svg">
   <defs
      id="defs2">
     <clipPath
@@ -44,9 +44,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="668.05245"
-     inkscape:cy="86.481927"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="528.71682"
+     inkscape:cy="265.18028"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -69,7 +69,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -78,39 +78,48 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-90.624992)">
-    <rect
-       style="opacity:1;fill:#ef5000;fill-opacity:1;stroke:none;stroke-width:0.26458335;stroke-opacity:1"
-       id="rect4522"
-       width="219.07501"
-       height="19.050001"
-       x="0"
-       y="277.94998" />
-    <rect
-       style="opacity:1;fill:#ef5000;fill-opacity:1;stroke:none;stroke-width:0.26458335;stroke-opacity:1"
-       id="rect4522-1"
-       width="219.07501"
-       height="19.050001"
-       x="-37.824497"
-       y="348.06329"
-       transform="rotate(-42.296015)"
-       inkscape:transform-center-x="41.426779"
-       inkscape:transform-center-y="18.441598"
-       clip-path="url(#clipPath4556)" />
-    <rect
-       style="opacity:1;fill:#4a4a4a;fill-opacity:1;stroke:none;stroke-width:0.26557615;stroke-opacity:1"
-       id="rect4560"
-       width="212.72501"
-       height="4.7625003"
-       x="0"
-       y="273.1875" />
-    <rect
-       style="opacity:1;fill:#4a4a4a;fill-opacity:1;stroke:none;stroke-width:0.22711705;stroke-opacity:1"
-       id="rect4560-5"
-       width="155.57501"
-       height="4.7625003"
-       x="-26.29207"
-       y="344.26019"
-       transform="rotate(-41.736099)"
-       clip-path="url(#clipPath4581)" />
+    <g
+       id="g1423"
+       transform="matrix(1,0,0,0.53334129,0,138.59764)">
+      <rect
+         y="277.94998"
+         x="0"
+         height="19.050001"
+         width="219.07501"
+         id="rect4522"
+         style="opacity:1;fill:#ef5000;fill-opacity:1;stroke:none;stroke-width:0.26458335;stroke-opacity:1" />
+      <rect
+         clip-path="url(#clipPath4556)"
+         inkscape:transform-center-y="18.441598"
+         inkscape:transform-center-x="41.426779"
+         transform="rotate(-42.296015)"
+         y="348.06329"
+         x="-37.824497"
+         height="19.050001"
+         width="219.07501"
+         id="rect4522-1"
+         style="opacity:1;fill:#ef5000;fill-opacity:1;stroke:none;stroke-width:0.26458335;stroke-opacity:1" />
+      <rect
+         y="273.1875"
+         x="0"
+         height="4.7625003"
+         width="212.72501"
+         id="rect4560"
+         style="opacity:1;fill:#4a4a4a;fill-opacity:1;stroke:none;stroke-width:0.26557615;stroke-opacity:1" />
+      <rect
+         clip-path="url(#clipPath4581)"
+         transform="rotate(-41.736099)"
+         y="344.26019"
+         x="-26.29207"
+         height="4.7625003"
+         width="155.57501"
+         id="rect4560-5"
+         style="opacity:1;fill:#4a4a4a;fill-opacity:1;stroke:none;stroke-width:0.22711705;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path1416"
+         d="m 217.48751,297 74.6125,-69.05625 V 297 Z"
+         style="fill:#ef5000;fill-opacity:1;stroke:none;stroke-width:0.26458335px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
   </g>
 </svg>
