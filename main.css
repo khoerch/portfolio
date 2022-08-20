@@ -219,7 +219,7 @@ footer a:hover {
     /*Header and Bio*/
 
     header {
-        background-image: url("background-3.svg");
+        background-image: url("./images/background-image.svg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: bottom center;
